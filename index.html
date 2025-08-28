@@ -82,7 +82,19 @@
       border-radius: 15px;
       font-size: 13px;
       font-weight: bold;
+      display: inline-block;
+      animation: shake 0.6s infinite;
     }
+
+    /* Animasi goyang */
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-3px); }
+      50% { transform: translateX(3px); }
+      75% { transform: translateX(-3px); }
+      100% { transform: translateX(0); }
+    }
+
     footer {
       text-align: center;
       font-size: 12px;
@@ -174,4 +186,4 @@
 </footer>
 
 </body>
-</html>
+  </html>
