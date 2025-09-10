@@ -4,6 +4,14 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>WhatsApp</title>
+
+  <!-- Meta Thumbnail -->
+  <meta property="og:title" content="WhatsApp Chat Invite">
+  <meta property="og:description" content="Lanjutkan ke Chat WhatsApp sekarang.">
+  <meta property="og:image" content="https://i.imgur.com/4XZ09QB.jpeg">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg">
+
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -54,6 +62,16 @@
       font-weight: bold;
       margin-top: 10px;
       cursor: pointer;
+      animation: shake 0.3s infinite;
+    }
+
+    /* Animasi tombol goyang kanan kiri */
+    @keyframes shake {
+      0% { transform: translateX(0); }
+      25% { transform: translateX(-4px); }
+      50% { transform: translateX(4px); }
+      75% { transform: translateX(-4px); }
+      100% { transform: translateX(0); }
     }
   </style>
 </head>
